@@ -1,11 +1,11 @@
-
+<!--Please do not remove this part-->
 ![Star Badge](https://img.shields.io/static/v1?label=%F0%9F%8C%9F&message=If%20Useful&style=style=flat&color=BC4E99)
 ![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
 
 # Music Player
 
 
-## 🛠️ Description
+## 🛠️  Description
 A simple music player in python which enables you to play, next, back, pause, resume the music
 
 ## ⚙️ Languages or Frameworks Used

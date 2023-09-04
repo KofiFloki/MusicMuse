@@ -6,7 +6,7 @@ import vlc
 import glob
 import fnmatch
 
-# Initialize the VLC media player
+# Initialize the VLC media player.
 vlc_instance = vlc.Instance()
 player = vlc_instance.media_player_new()
 

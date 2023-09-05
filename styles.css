@@ -4,23 +4,32 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
 }
 header {
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     text-align: center;
+    padding: 1em 0; /* Add padding to separate the header from the top */
     color: white;
+    position: relative;   
 }
+
+header ul {
+    list-style-type: none;
+    padding: 0;
+    position: absolute; /* Position the ul absolutely within the header */
+    top: 0; /* Align to the top */
+    right: 0; /* Align to the right */
+}
+
 h1 {
     font-size: 3em;
     font-weight: bold;
 }
-p {
+header p1 {
     font-size: 1.5em;
-    font-weight: lighter;
 }
+
 nav {
     margin-top: 1em;
 }

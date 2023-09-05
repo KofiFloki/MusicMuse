@@ -56,6 +56,16 @@ p {
     font-weight: lighter;
 }
 
+h1 {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.0em;
+    font-weight: lighter;
+}
+
 nav {
     margin-top: 1em;
 }
@@ -65,11 +75,13 @@ nav ul {
 }
 nav li {
     display: inline-block;
-    margin-right: 1em;
+    margin-right: 20px;
+    background-color: transparent;
 }
 nav a {
     color: white;
     text-decoration: none;
+    
 }
 nav a:hover {
     text-decoration: underline;
@@ -84,6 +96,7 @@ section {
     background-repeat: no-repeat;
     overflow: hidden; /* Hide overflowing content */
     height: 100vh;
+    
 }
 
 /* Style the container within the section */
@@ -99,6 +112,11 @@ section {
     font-size: 2em; /* Adjust the font size */
     font-weight: bold;
     margin-bottom: 10px; /* Add spacing between headings */
+}
+
+/* Add margin to push the "About Us" section down */
+.container h2:nth-of-type(3) {
+    margin-top: 20px; /* Adjust the margin-top value to your preference */
 }
 
 .container p {
@@ -121,7 +139,7 @@ section {
     display: inline-block;
     background-color: #007BFF; /* Change button background color */
     color: white;
-    padding: 10px 20px;
+    padding: 5px 10px;
     text-decoration: none;
     font-size: 1.0em;
     font-weight: bold;

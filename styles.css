@@ -6,12 +6,36 @@ body {
     height: 100vh;
     margin: 0; /* Remove default margin */
     padding: 0; /* Remove default padding */
+    overflow-y: scroll;
 }
+
+.container {
+    top: 0; /* Position from the top of the viewport */
+    left: 0; /* Position from the left of the viewport */
+    width: 100%; /* Make the container full width */
+    height: 100%; /* Make the container full height */
+    padding: 100px 10px; /* Add some padding for readability, adjust as needed */
+    text-align: left; /* Align text content to the left */
+    background-color: rgba(0, 0, 0, 0.7); /* Add a semi-transparent black background to the container */
+    color: white; /* Set text color to white */
+    position: fixed; /* Fix the container's position */
+}
+
 header {
     text-align: center;
-    padding: 1em 0; /* Add padding to separate the header from the top */
-    color: white;
-    position: relative;   
+    color: white; /* Text color on the background image */
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 header ul {
@@ -26,8 +50,10 @@ h1 {
     font-size: 3em;
     font-weight: bold;
 }
-header p1 {
-    font-size: 1.5em;
+
+p {
+    font-size: 1.0em;
+    font-weight: lighter;
 }
 
 nav {
@@ -47,4 +73,62 @@ nav a {
 }
 nav a:hover {
     text-decoration: underline;
+}
+
+/* Update the existing CSS for the section */
+section {
+    position: relative;
+    background-image: url("images/mp3-old-things-recall-vintage-black-and-white-music.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden; /* Hide overflowing content */
+    height: 100vh;
+}
+
+/* Style the container within the section */
+.container {
+    max-width: 800px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+    text-align: left; /* Align text content to the left */
+    padding: 20px; /* Add padding for content within the container */
+}
+
+/* Style the headings and paragraphs within the container */
+.container h2 {
+    font-size: 2em; /* Adjust the font size */
+    font-weight: bold;
+    margin-bottom: 10px; /* Add spacing between headings */
+}
+
+.container p {
+    font-size: 0.8em; /* Adjust the font size */
+    font-weight: lighter;
+    margin-bottom: 10px; /* Add spacing between paragraphs */
+}
+
+.container ul {
+    margin-top: 10px; /* Add spacing between unordered lists */
+}
+
+.container li {
+    font-size: 1.0em; /* Adjust the font size for list items */
+    margin-bottom: 5px; /* Add spacing between list items */
+}
+
+/* Style the "Get Started" button */
+.cta-button {
+    display: inline-block;
+    background-color: #007BFF; /* Change button background color */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.0em;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px; /* Add spacing above the button */
+}
+
+.cta-button:hover {
+    background-color: #0056b3; /* Change button background color on hover */
 }

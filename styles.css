@@ -1,29 +1,18 @@
+/* Set the background image for the entire body */
 body {
     background-image: url("images/mp3-old-things-recall-vintage-black-and-white-music.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh;
     margin: 0; /* Remove default margin */
     padding: 0; /* Remove default padding */
-    overflow-y: scroll;
+    font-family: Arial, sans-serif; /* Define a font for the entire page */
 }
 
-.container {
-    top: 0; /* Position from the top of the viewport */
-    left: 0; /* Position from the left of the viewport */
-    width: 100%; /* Make the container full width */
-    height: 100%; /* Make the container full height */
-    padding: 100px 10px; /* Add some padding for readability, adjust as needed */
-    text-align: left; /* Align text content to the left */
-    background-color: rgba(0, 0, 0, 0.7); /* Add a semi-transparent black background to the container */
-    color: white; /* Set text color to white */
-    position: fixed; /* Fix the container's position */
-}
-
+/* Style the header as it is */
 header {
     text-align: center;
-    color: white; /* Text color on the background image */
+    color: white;
     position: relative;
     background-size: cover;
     background-position: center;
@@ -41,9 +30,9 @@ header {
 header ul {
     list-style-type: none;
     padding: 0;
-    position: absolute; /* Position the ul absolutely within the header */
-    top: 0; /* Align to the top */
-    right: 0; /* Align to the right */
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 h1 {
@@ -52,101 +41,127 @@ h1 {
 }
 
 p {
-    font-size: 1.0em;
-    font-weight: lighter;
-}
-
-h1 {
-    font-size: 3em;
-    font-weight: bold;
-}
-
-p {
-    font-size: 1.0em;
+    font-size: 1.0em;   
     font-weight: lighter;
 }
 
 nav {
     margin-top: 1em;
 }
+
 nav ul {
     list-style: none;
     padding: 0;
 }
+
 nav li {
     display: inline-block;
     margin-right: 20px;
     background-color: transparent;
 }
+
 nav a {
     color: white;
     text-decoration: none;
-    
 }
+
 nav a:hover {
     text-decoration: underline;
 }
 
-/* Update the existing CSS for the section */
+/* Style the section with background image */
 section {
-    position: relative;
-    background-image: url("images/mp3-old-things-recall-vintage-black-and-white-music.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    overflow: hidden; /* Hide overflowing content */
-    height: 100vh;
-    
+    background: none;
+    position: absolute;
+    top: 0;
+    left: -15%;
+    width: 100%;
+    height: 100%;
 }
 
-/* Style the container within the section */
+/* Style the container to be transparent and scrollable */
 .container {
-    max-width: 800px; /* Adjust the maximum width as needed */
-    margin: 0 auto; /* Center the container horizontally */
-    text-align: left; /* Align text content to the left */
-    padding: 20px; /* Add padding for content within the container */
+    background-color: rgba(0, 0, 0, 0.2); /* Add a semi-transparent black background to the container */
+    color: white;
+    max-width: 850px;
+    margin: 20px auto;
+    text-align: left;
+    padding: 180px;
+    position: relative;
+    z-index: 1; /* Ensure content is above the background image */
+    margin-top: 0;
 }
 
 /* Style the headings and paragraphs within the container */
 .container h2 {
-    font-size: 2em; /* Adjust the font size */
+    font-size: 2.5em;
     font-weight: bold;
-    margin-bottom: 10px; /* Add spacing between headings */
+    margin-bottom: 10px;
+    color: black;
 }
 
 /* Add margin to push the "About Us" section down */
 .container h2:nth-of-type(3) {
-    margin-top: 20px; /* Adjust the margin-top value to your preference */
+    margin-top: 20px;
 }
 
 .container p {
-    font-size: 0.8em; /* Adjust the font size */
+    font-size: 1.0em;
     font-weight: lighter;
-    margin-bottom: 10px; /* Add spacing between paragraphs */
+    margin-bottom: 10px;
+    color: white;
 }
 
 .container ul {
-    margin-top: 10px; /* Add spacing between unordered lists */
+    margin-top: 10px;
 }
 
 .container li {
-    font-size: 1.0em; /* Adjust the font size for list items */
-    margin-bottom: 5px; /* Add spacing between list items */
+    font-size: 1.0em;
+    margin-bottom: 5px;
 }
 
 /* Style the "Get Started" button */
 .cta-button {
     display: inline-block;
-    background-color: #007BFF; /* Change button background color */
+    background-color: #007BFF;
     color: white;
     padding: 5px 10px;
     text-decoration: none;
     font-size: 1.0em;
     font-weight: bold;
     border-radius: 5px;
-    margin-top: 20px; /* Add spacing above the button */
+    margin-top: 20px;
 }
 
 .cta-button:hover {
-    background-color: #0056b3; /* Change button background color on hover */
+    background-color: #0056b3;
 }
+
+/* Add this CSS to your existing stylesheet or within a <style> tag in your HTML */
+
+/* Style for the container */
+.feature-images-container {
+    display: flex; /* Use flexbox to arrange images side by side */
+    justify-content: space-between; /* Space them evenly horizontally */
+    margin-top: 20px; /* Add some top margin for spacing */
+}
+
+/* Style for individual images */
+.feature-image-container img:nth-child(1) {
+    max-width: 30%; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+/*The CSS above creates a container for the images and uses flexbox to arrange them side by side
+ with spacing in between. You can adjust the max-width property of the .feature-image class
+to control the width of each image as needed.
+
+/* Style for the second image */
+.feature-images-container img:nth-child(2) {
+    max-width: 30%; /* Adjust the width for the second image */
+}
+
+
+
+
+

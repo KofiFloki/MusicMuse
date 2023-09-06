@@ -16,7 +16,7 @@ my_music = r"C:\\Users\hp\OneDrive\Desktop\project music\\"
 pattern = "*.mp3"
 
 window = tk.Tk()
-window.geometry("350x400")
+window.geometry("350x300")
 window.resizable(False, False)
 window.title("MusicMuse")
 window.config(bg= 'Grey')

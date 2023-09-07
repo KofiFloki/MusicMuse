@@ -52,3 +52,44 @@ nav a:hover {
     text-decoration: underline;
 }
 
+/* Style the "Get Started" button */
+.cta-button {
+    display: inline-block;
+    background-color: #007BFF; /* Change button background color */
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 1.0em;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px; /* Add spacing above the button */
+}
+
+.cta-button:hover {
+    background-color: #0056b3; /* Change button background color on hover */
+}
+
+/* Style the container within the section */
+.container {
+    max-width: 4000px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+    text-align: left; /* Align text content to the left */
+    padding: 50px; /* Add padding for content within the container */
+}
+
+/* Style the headings and paragraphs within the container */
+.container h2 {
+    font-size: 2.5em; /* Adjust the font size */
+    font-weight: bold;
+    margin-bottom: 10px; /* Add spacing between headings */
+}
+
+.container p {
+    font-size: 1.0em; /* Adjust the font size */
+    font-weight: lighter;
+    margin-bottom: 30px; /* Add spacing between paragraphs */
+}
+
+.container ul {
+    margin-top: 10px; /* Add spacing between unordered lists */
+}

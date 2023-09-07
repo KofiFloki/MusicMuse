@@ -1,9 +1,9 @@
 body {
-    background-image: url("images/mp3-old-things-recall-vintage-black-and-white-music.jpg");
+    background-image: url("../images/music-cassette-blender-mp3-3d.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    margin: 5% 3% 3%; /* Push the body down by 10% from the top and 0 from the sides */
+    margin: 5% 3%; /* Push the body down by 10% from the top and 0 from the sides */
     padding: 0; /* Remove default padding */
     font-family: Arial, sans-serif; /* Define a font for the entire page */
 }

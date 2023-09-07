@@ -1,11 +1,36 @@
-/* Add this CSS to your existing stylesheet or create a new one */
+body {
+    background-image: url("images/mp3-old-things-recall-vintage-black-and-white-music.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 5% 3% 3%; /* Push the body down by 10% from the top and 0 from the sides */
+    padding: 0; /* Remove default padding */
+    font-family: Arial, sans-serif; /* Define a font for the entire page */
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 00vh;
+}
+
+/* Adjust the font size for h1 and p elements in the header */
+header h1 {
+    font-size: 2em; /* Adjust the font size as needed */
+}
+
+header p {
+    font-size: 0.8em; /* Adjust the font size as needed */
+}
 
 /* Style the header navigation list */
 nav ul {
     list-style: none;
     padding: 0;
     position: absolute;
-    top: 10px; /* Adjust the top position to your preference */
+    top: 15px; /* Adjust the top position to your preference */
     right: 10px; /* Adjust the right position to your preference */
 }
 
@@ -26,3 +51,4 @@ nav a {
 nav a:hover {
     text-decoration: underline;
 }
+

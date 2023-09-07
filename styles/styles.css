@@ -1,0 +1,9 @@
+header {
+    text-align: center;
+    color: white; /* Text color on the background image */
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}

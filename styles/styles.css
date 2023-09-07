@@ -1,9 +1,28 @@
-header {
-    text-align: center;
-    color: white; /* Text color on the background image */
-    position: relative;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
+/* Add this CSS to your existing stylesheet or create a new one */
+
+/* Style the header navigation list */
+nav ul {
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    top: 10px; /* Adjust the top position to your preference */
+    right: 10px; /* Adjust the right position to your preference */
+}
+
+/* Style the individual navigation list items */
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+    background-color: transparent;
+}
+
+nav a {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold; /* Make the text bold */
+}
+
+/* Optional: Add hover effect for navigation links */
+nav a:hover {
+    text-decoration: underline;
 }

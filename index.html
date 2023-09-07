@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MusicMuse</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to MusicMuse</h1>
+        <p>Your Simple MP3 Music Player</p>
+        <nav>
+            <ul>
+                <li><a href="#home" class="scroll-link">Home</a></li>
+                <li><a href="#features" class="scroll-link">Features</a></li>
+                <li><a href="#about" class="scroll-link">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Content Section -->
+    <section>
+        <div class="container">
+            <section id="home">
+                <h2>MusicMuse</h2>
+                <p>MusicMuse is a simple mp3 player, designed to make navigating music in a custom made playlist, easier. </p>
+            </section>
+
+            <section id="features">
+                <h2>Key Features</h2>
+                <ul>
+                    <li>Play and pause your music</li>
+                    <li>Navigate through your music playlist</li>
+                    <li>Go forward and backward between tracks</li>
+                    <li>Put Music in your playlist</li>
+                </ul>
+                <img src="images/mp3 player template.png" alt="Image with features" class="feature-images">
+                <img src="images/MM-2 with music selected mini size.png" alt="Music player with songs" class="feature-images">
+            </section>
+
+            <section id="about">
+                <h2>About MusicMuse</h2>
+                <p>We are a team of passionate developers dedicated to creating tools that enhance your music experience. MusicMuse is our latest project, and we hope you enjoy using it as much as we enjoyed creating it.</p>
+                <p>Connect with Jeremiah Martey on <a href="https://www.linkedin.com/in/jeremiah-martey-a70355158/">LinkedIn</a> and
+                <a href="https://github.com/your-username/your-repo">GitHub</a></p>
+                
+                <h2>Get Started</h2>
+                <p>Ready to start using MusicMuse? Download it now and enjoy your music journey!</p>
+                
+                <a href="download.html" class="cta-button">Download Now</a>
+            </section>
+        </div>
+    </section>
+
+    <!-- JavaScript for Smooth Scrolling -->
+    <script>
+        // Select all links with class "scroll-link"
+        const scrollLinks = document.querySelectorAll('.scroll-link');
+
+        // Add click event listeners to each link
+        scrollLinks.forEach(link => {
+            link.addEventListener('click', (event) => {
+                event.preventDefault(); // Prevent the default behavior of anchor links
+                const targetId = link.getAttribute('href').slice(1); // Get the target section's ID
+                const targetSection = document.getElementById(targetId); // Select the target section
+                if (targetSection) {
+                    // Scroll to the target section with smooth behavior
+                    targetSection.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+    </script>
+</body>
+</html>

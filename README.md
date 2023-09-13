@@ -10,7 +10,7 @@ MusicMuse is more than just a Python music player; it's a labor of love inspired
 
 ## Functionalities of MusicMuse
 This mp3 player comes with the play, next, back, pause, buttons to help navigate the music player.
-![Sample image](<MM-2 with music selected.PNG?raw=true "Sample">)
+![Sample image](<mp3 player template.png?raw=true "Sample">)
 
 
 ## ⚙️ Languages or Frameworks Used
@@ -31,7 +31,7 @@ python music_muse.py
 
 ## 📺 Demo
 <p align="center">
-[Demo](<images/Animation.gif?raw=true width=70% height=70%>)
+![Demo](<images/Animation.gif?raw=true width=70% height=70%>)
 
 ## 🤖 Author
 [Jeremiah Martey](https://github.com/KofiFloki)

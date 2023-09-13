@@ -31,7 +31,7 @@ python music_muse.py
 
 ## 📺 Demo
 <p align="center">
-<img src="https://github.com/KofiFloki/Music-Player-In-Python/blob/main/images/Screenshot%20from%202022-10-02%2011-19-40.png" width=70% height=70%>
+[Demo](<images/Animation.gif?raw=true width=70% height=70%>)
 
 ## 🤖 Author
 [Jeremiah Martey](https://github.com/KofiFloki)

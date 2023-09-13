@@ -34,3 +34,6 @@ python music_muse.py
 
 ## 🤖 Author
 [Jeremiah Martey](https://github.com/KofiFloki)
+
+## License
+MIT License Copyright (c) 2023 Jeremiah Martey

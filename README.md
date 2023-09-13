@@ -30,8 +30,7 @@ python music_muse.py
 
 
 ## 📺 Demo
-<p align="center">
-![Demo](<images/Animation.gif?raw=true width=70% height=70%>)
+![Demo image](<images/Animation.gif?raw=true "Demo">)
 
 ## 🤖 Author
 [Jeremiah Martey](https://github.com/KofiFloki)

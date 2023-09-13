@@ -31,7 +31,7 @@ python music_muse.py
 
 ## 📺 Demo
 ![Demo image](<images/Animation.gif?raw=true "Demo">)
-
+git
 ## 🤖 Author
 [Jeremiah Martey](https://github.com/KofiFloki)
 

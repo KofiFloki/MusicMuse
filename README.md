@@ -30,7 +30,7 @@ python music_muse.py
 
 
 ## 📺 Demo
-![Demo image](<images/Animation.gif?raw=true "Demo">)
+![Demo gif](<images/Animation.gif?raw=true "Demo">)
 
 ## 🤖 Author
 [Jeremiah Martey](https://github.com/KofiFloki)
